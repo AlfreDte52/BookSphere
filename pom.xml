@@ -20,12 +20,20 @@
             <artifactId>javafx-fxml</artifactId>
             <version>21</version>
         </dependency>
-        
+           <!-- PostgreSQL JDBC -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>42.7.8</version>
          </dependency>
+         
+         <!-- Lombok (opcional para simplificar modelos) -->
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.32</version>
+        <scope>provided</scope>
+    </dependency>
         
     </dependencies>
     <build>
